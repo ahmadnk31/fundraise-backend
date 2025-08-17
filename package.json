@@ -33,6 +33,7 @@
     "zod": "^4.0.15"
   },
   "devDependencies": {
+    "@netlify/functions": "^2.8.2",
     "@types/bcryptjs": "^2.4.6",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",

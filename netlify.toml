@@ -8,6 +8,7 @@
 
 [functions]
   node_bundler = "esbuild"
+  external_node_modules = ["@aws-sdk/client-s3", "@aws-sdk/client-ses", "@aws-sdk/s3-request-presigner", "pg", "postgres"]
 
 [[redirects]]
   from = "/api/*"
