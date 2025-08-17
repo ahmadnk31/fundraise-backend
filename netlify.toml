@@ -6,7 +6,7 @@
 [build.environment]
   NODE_VERSION = "18"
 
-[[functions]]
+[functions]
   node_bundler = "esbuild"
 
 [[redirects]]
