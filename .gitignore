@@ -1,0 +1,155 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.env.staging
+.env.production
+config.json
+secrets.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+.env
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# AWS credentials and config
+.aws/
+aws-credentials.json
+
+# Stripe keys and webhooks
+stripe-webhook-secret.txt
+stripe-keys.json
+.stripe-*
+stripe-config.json
+
+# JWT and authentication secrets
+jwt-secret.txt
+auth-keys.json
+.jwt-*
+
+# Database dumps and backups
+*.sql
+*.dump
+backup/
+backups/
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.cert
+
+# Docker
+.dockerignore
+Dockerfile.local
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Secrets and keys
+secrets/
+keys/
+*.private
+*.secret
+
+# Application specific uploads
+uploads/
+temp-uploads/
